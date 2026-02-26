@@ -64,3 +64,37 @@ buttons:
   - entity: switch.steckdose_tv
   - entity: fan.deckenventilator
   - entity: light.leselampe  # Rutscht automatisch ins Pop-up, da max_buttons auf 4 steht
+
+### 📝 Parameter-Übersicht
+
+| Parameter | Typ | Beschreibung |
+| :--- | :--- | :--- |
+| `name` | String | Der Name des Raums (z. B. "Wohnzimmer"). |
+| `icon` | String | Das Haupt-Icon der Karte (Standard: `mdi:home`). |
+| `nav_path` | String | (Optional) Ein Pfad (z. B. `/lovelace/kueche`), der geöffnet wird, wenn man auf die leere Fläche der Karte klickt. |
+| `temp_entity` | Entity ID | (Optional) Sensor für die Temperatur. |
+| `humidity_entity`| Entity ID | (Optional) Sensor für die Luftfeuchtigkeit. |
+| `window_entity` | Entity ID | (Optional) Kontakt-Sensor für Fenster/Tür. |
+| `show_door_closed`| Boolean | Wenn `true`, wird "Zu" angezeigt. Wenn `false` (Standard), wird der Sensor nur angezeigt, wenn er offen ist. |
+| `dark_text` | Boolean | Aktiviert das helle Design mit dunkler Schrift. Perfekt für sehr helle Dashboard-Hintergründe. |
+| `cover_invert` | Boolean | `true` invertiert die Rollladen-Anzeige (z. B. 0% = Offen). |
+| `max_buttons` | Number | Wie viele Slots auf der Karte sichtbar sein sollen (1 bis 4). Weitere landen im Pop-up. |
+| `buttons` | List | Liste deiner Entitäten (Unterstützt: light, switch, fan, cover, input_boolean). |
+
+### 🎨 Farben anpassen (Optional)
+Du kannst das Farbschema über den visuellen Editor oder per YAML komplett an deine Wünsche anpassen. Unterstützte Parameter sind z. B. `color_on`, `color_cover`, `color_door_open`, `color_door_closed` (und jeweils mit dem Suffix `_dark` für das helle Theme).
+
+---
+
+## 🕹️ Bedienung & Gesten
+
+Damit deine Mitbewohner oder Gäste die Karte optimal nutzen können, hier ein kleiner Guide zu den eingebauten Gesten:
+
+* **Mini-Buttons (Geräte):**
+    * **Kurzes Tippen:** Schaltet das Gerät ein/aus (Toggle) oder startet/stoppt den Rollladen.
+    * **Langes Drücken (Hold):** Öffnet den Home Assistant "More Info" Dialog (z. B. für Farbeinstellungen oder Helligkeit). Der *Progress Veil* zeigt an, wann lange genug gedrückt wurde.
+* **Master Button (Großes Icon links):**
+    * **Langes Drücken (Hold):** Führt einen "Master Off" aus – schaltet alle aktiven Lichter, Schalter und Ventilatoren dieses Raums auf einmal ab.
+* **Overflow Button (`...`):**
+    * **Kurzes Tippen:** Öffnet das flüssige Vollbild-Pop-up mit allen weiteren Geräten. Das Pop-up lässt sich per Swipe nach unten schließen.
+    * **Langes Drücken (Hold):** Führt einen "Quick Off" für alle versteckten Geräte aus (schaltet alle Geräte aus, die im Pop-up sind).
