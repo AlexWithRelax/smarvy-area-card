@@ -1,5 +1,6 @@
 {
   "name": "Smarvy Area Card",
-  "render_readme": true,
-  "filename": "smarvy-area-card.js"
+  "filename": "smarvy-area-card-climate.js",
+  "render_adm": true,
+  "type": "plugin"
 }
