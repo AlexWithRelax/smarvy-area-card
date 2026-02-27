@@ -80,6 +80,37 @@ Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzust
 
 ---
 
+## 🎮 Bedienung & Gesten
+
+Die **Smarvy Area Card** wurde für ein haptisches und visuelles Premium-Erlebnis entwickelt. Sie kombiniert intuitive Gesten mit direktem Feedback, wie man es von modernen High-End-Interfaces kennt.
+
+### 📳 Visuelles & Haptisches Feedback (Premium Feel)
+Um Fehlbedienungen zu vermeiden und eine wertige Haptik zu garantieren, nutzt die Karte zwei besondere Mechanismen:
+
+* **Der "Schleier-Effekt" (Visual Shroud):** Bei jedem Halten (**Long Press**) breitet sich ein sanfter, dunkler Schleier über die gesamte Karte aus. Die Aktion (z. B. der Master Off) wird erst ausgelöst, wenn der Schleier die Karte vollständig "eingehüllt" hat. Dies signalisiert dir visuell den Fortschritt der Aktivierung.
+* **Haptisches Feedback:** Auf touchfähigen Geräten mit Vibrationsmotor (Smartphones & Tablets) erhältst du eine kurze, präzise Vibration, sobald der Long-Press-Befehl erfolgreich registriert wurde.
+*  
+Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausholst:
+
+### 🏠 Hauptbereich (Links & Mitte)
+* **Tippen auf das Raum-Icon (links):** Führt keine Interaktion aus.
+* **Halten auf das Raum-Icon (Long Press):** **Master Off** – Schaltet sofort alle aktiven Lichter, Schalter und Ventilatoren im Raum aus.
+* **Tippen auf den Raumnamen:** Navigiert dich direkt zum hinterlegten Pfad (zb. Areas).
+* **Halten auf den Raumnamen/Sensoren:** Öffnet direkt das **Klima-Pop-up**, falls ein Thermostat konfiguriert ist.
+* **Im **Klima-Pop-up** = **Halten auf die Temperatur:** Öffnet den Standard-Home-Assistant-Dialog für detaillierte Einstellungen des Klimagerätes.
+
+### 💡 Geräte-Buttons (Rechts)
+* **Einfaches Tippen:** Schaltet das Gerät ein/aus (Licht, Fan, Switch) oder steuert den Rollladen (Öffnen/Stopp/Schließen).
+* **Halten (Long Press):** Öffnet den Standard-Home-Assistant-Dialog für detaillierte Einstellungen (z. B. Farbe des Lichts).
+* **Drei Punkte (⋮) - Tippen:** Öffnet das **Steuerungs-Pop-up** mit allen weiteren Geräten des Raums.
+* **Drei Punkte (⋮) - Halten:** **Quick Off** – Schaltet nur die im Pop-up versteckten Geräte aus.
+
+### 🌡️ Pop-up & Klima-Steuerung
+* **Temperatur anpassen:** Nutze die **+** und **-** Tasten im Klima-Pop-up für schnelle Änderungen.
+* **Ist-Temperatur:** Die Karte zeigt dir im Badge und im Pop-up immer die aktuelle Ist-Temperatur sowie die Luftfeuchtigkeit an.
+* **Schließen:** Du kannst das Pop-up jederzeit durch eine **Wischgeste nach unten** (Swipe down), beim daneben Klicken auf dem Bildschirm oder durch Tippen auf das "X" schließen.
+
+---
 ### ❤️ Unterstütze das Projekt
 
 Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
