@@ -1,47 +1,51 @@
-# 🏠✨ Smarvy Area Card (v5.0.1)
+# 🌟 Smarvy Area Card für Home Assistant
 
-Die **Smarvy Area Card** ist eine Premium-Raumkarte für Home Assistant. Sie kombiniert modernes **Glassmorphism-Design** mit intuitiven Touch-Gesten, dynamischen Pop-ups und einem innovativen „Progress Veil“ (Lade-Schleier beim Gedrückthalten). 
+![Version](https://img.shields.io/badge/version-5.3.4-blue.svg)
+![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)
+![Made with Love](https://img.shields.io/badge/Made_with-❤️_by_Smarvy-green.svg)
 
-Perfekt geeignet, um ganze Räume (Areas) auf einen Blick zu überwachen und zu steuern, ohne viel Platz auf deinem Dashboard zu verbrauchen.
+Willkommen zur **Smarvy Area Card** – einer hochperformanten, responsiven und visuell atemberaubenden Custom Card für dein Home Assistant Dashboard. 
+
+Entwickelt mit einem extremen Fokus auf **Mobile-First UX**, bringt diese Karte Premium-Design (Glassmorphism) und native Pop-ups direkt in dein Smart Home, **ganz ohne externe Abhängigkeiten wie `browser_mod`**.
 
 ---
 
 ## ✨ Highlights & Features
 
-* 💎 **Premium Glassmorphism:** Schicke Milchglas-Optik, die sich fließend in deine Dashboard-Hintergründe einfügt (inklusive "Dark Text"-Modus für helle Hintergründe).
-* 🎛️ **Squircle Master Button:** Der Haupt-Button sieht nicht nur modern aus, sondern dient als "Master Off"-Schalter. Langes Drücken schaltet alle aktiven Lichter, Schalter und Ventilatoren im Raum aus.
-* ⏳ **Progress Veil & Haptisches Feedback:** Langes Drücken (Hold) auf Buttons wird mit einem eleganten Schleier-Effekt visualisiert und durch haptisches Feedback (falls vom Gerät unterstützt) bestätigt.
-* 📱 **Swipeable Pop-up:** Wenn du mehr Geräte hast, als auf die Karte passen (Maximal 4 Slots), wird automatisch ein "Overflow"-Button (`...`) erstellt. Ein Klick darauf öffnet einen wunderschönen, wischbaren Pop-up-Dialog mit den restlichen Geräten. *Tipp: Langes Drücken auf den `...`-Button schaltet alle "versteckten" aktiven Geräte aus!*
-* 🌡️ **Integrierte Sensoren:** Zeigt Temperatur, Luftfeuchtigkeit und den Fenster-/Türstatus direkt neben dem Raumnamen an.
-* 🪟 **Smarte Rollladen-Steuerung:** Erkennt Rollläden automatisch. Zeigt Animationen beim Hoch-/Runterfahren und den prozentualen Öffnungsgrad direkt im Button an.
-* 🖱️ **Visueller Editor:** Vollständig in die native Home Assistant Benutzeroberfläche integriert. Du brauchst kein YAML-Wissen, um die Karte perfekt einzustellen (inkl. Drag & Drop für Buttons!).
+* 🎨 **Premium Glassmorphism Design:** Moderne Blur-Effekte, dynamische "Shimmer"-Verläufe und native Anpassung an helle und dunkle Themes.
+* 📱 **Touch-Optimiert & Gestensteuerung:** * **Long-Press:** Haptisches Feedback und visuelle "Veil"-Ladebalken beim gedrückt Halten.
+  * **Swipe-to-Close:** Schließe das integrierte Pop-up elegant mit einer Wischgeste nach unten.
+* ⚡ **Zero Dependencies (Kein browser_mod!):** Das Pop-up-System ist zu 100 % in der Karte integriert. Ein Skript, alles funktioniert.
+* 🌡️ **Smarte Klima- & Sensor-Integration:**
+  * Platzsparende "Badges" für Temperatur, Luftfeuchtigkeit und offene/geschlossene Fenster direkt auf der Hauptkarte.
+  * Dediziertes Klima-Pop-up zur schnellen Steuerung deines Thermostats.
+* 💡 **Intelligenter "Master Off":** Halte die Hauptkarte gedrückt, um sofort alle aktiven Lichter, Schalter oder Ventilatoren in diesem Raum auszuschalten.
+* ⚙️ **Vollwertiger visueller Editor:** Konfiguriere alles bequem über die Home Assistant UI. Inklusive nativem Drag & Drop zum Sortieren deiner Geräte-Buttons!
 
 ---
 
 ## 🚀 Installation
 
-### Option 1: HACS (Empfohlen)
-*(Sobald du das Repository zu HACS hinzugefügt hast, kannst du diese Anleitung nutzen)*
-1. Öffne **HACS** in Home Assistant.
-2. Gehe zu **Frontend** -> **Benutzerdefinierte Repositories** (Custom repositories).
-3. Füge die URL deines GitHub-Repositories hinzu und wähle die Kategorie `Lovelace`.
-4. Klicke auf **Herunterladen** und lade die Seite neu.
+Da diese Karte als reines Vanilla-JavaScript geschrieben ist, ist die Installation extrem simpel.
 
-### Option 2: Manuell
+### Manuelle Installation
+
 1. Lade die Datei `smarvy-area-card.js` herunter.
-2. Lege sie in deinem Home Assistant Verzeichnis unter `config/www/` ab.
-3. Gehe in Home Assistant zu **Einstellungen** -> **Dashboards** -> **Ressourcen** (oben rechts auf die drei Punkte klicken).
-4. Füge eine neue Ressource hinzu:
+2. Lege die Datei in deinem Home Assistant Verzeichnis unter `/config/www/` ab (erstelle den Ordner `www`, falls er noch nicht existiert).
+3. Gehe in Home Assistant zu **Einstellungen** > **Dashboards** > Oben rechts auf die drei Punkte > **Ressourcen**.
+4. Klicke auf **Ressource hinzufügen**:
    * **URL:** `/local/smarvy-area-card.js`
-   * **Typ:** `JavaScript Modul`
+   * **Ressourcentyp:** `JavaScript Modul`
+5. Lade dein Browser-Fenster neu (F5 oder Cache leeren).
+6. Gehe in dein Dashboard, klicke auf "Karte hinzufügen" und suche nach **Smarvy Area Card**.
 
 ---
 
-## ⚙️ Konfiguration
+## 🛠️ Konfiguration
 
-Die Karte verfügt über einen **hervorragenden visuellen Editor** direkt in Home Assistant. Du kannst alle Farben, Sensoren und Geräte bequem zusammenklicken. 
+Die Smarvy Area Card bringt einen maßgeschneiderten, visuellen Editor mit. Du kannst alle Farben, Entitäten und Buttons bequem über die Benutzeroberfläche zusammenklicken. 
 
-Für alle, die lieber **YAML** nutzen, hier ein ausführliches Beispiel:
+Für Nutzer, die lieber YAML schreiben, hier ein Beispiel der Konfiguration:
 
 ```yaml
 type: custom:smarvy-area-card
@@ -51,50 +55,35 @@ nav_path: /lovelace/wohnzimmer
 temp_entity: sensor.wohnzimmer_temperatur
 humidity_entity: sensor.wohnzimmer_luftfeuchtigkeit
 window_entity: binary_sensor.wohnzimmer_fenster
-show_door_closed: true
+climate_entity: climate.wohnzimmer_thermostat
+max_buttons: 4
 dark_text: false
 cover_invert: true
-max_buttons: 4
-color_on: "#fdd835"
-color_cover: "#34c759"
+show_door_closed: false
 buttons:
-  - entity: light.deckenlampe
+  - entity: light.wohnzimmer_decke
     icon: mdi:ceiling-light
-  - entity: cover.fenster_links
-  - entity: switch.steckdose_tv
-  - entity: fan.deckenventilator
-  - entity: light.leselampe  # Rutscht automatisch ins Pop-up, da max_buttons auf 4 steht
+    type: entity
+  - entity: cover.wohnzimmer_rollo
+    icon: mdi:window-shutter
+    type: entity
+```
 
-### 📝 Parameter-Übersicht
-
-| Parameter | Typ | Beschreibung |
-| :--- | :--- | :--- |
-| `name` | String | Der Name des Raums (z. B. "Wohnzimmer"). |
-| `icon` | String | Das Haupt-Icon der Karte (Standard: `mdi:home`). |
-| `nav_path` | String | (Optional) Ein Pfad (z. B. `/lovelace/kueche`), der geöffnet wird, wenn man auf die leere Fläche der Karte klickt. |
-| `temp_entity` | Entity ID | (Optional) Sensor für die Temperatur. |
-| `humidity_entity`| Entity ID | (Optional) Sensor für die Luftfeuchtigkeit. |
-| `window_entity` | Entity ID | (Optional) Kontakt-Sensor für Fenster/Tür. |
-| `show_door_closed`| Boolean | Wenn `true`, wird "Zu" angezeigt. Wenn `false` (Standard), wird der Sensor nur angezeigt, wenn er offen ist. |
-| `dark_text` | Boolean | Aktiviert das helle Design mit dunkler Schrift. Perfekt für sehr helle Dashboard-Hintergründe. |
-| `cover_invert` | Boolean | `true` invertiert die Rollladen-Anzeige (z. B. 0% = Offen). |
-| `max_buttons` | Number | Wie viele Slots auf der Karte sichtbar sein sollen (1 bis 4). Weitere landen im Pop-up. |
-| `buttons` | List | Liste deiner Entitäten (Unterstützt: light, switch, fan, cover, input_boolean). |
-
-### 🎨 Farben anpassen (Optional)
-Du kannst das Farbschema über den visuellen Editor oder per YAML komplett an deine Wünsche anpassen. Unterstützte Parameter sind z. B. `color_on`, `color_cover`, `color_door_open`, `color_door_closed` (und jeweils mit dem Suffix `_dark` für das helle Theme).
+### 🎨 Design & Farben anpassen
+Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzustände (offen/geschlossen) direkt im visuellen Editor überschreiben, um sie perfekt an dein Theme anzupassen.
 
 ---
 
-## 🕹️ Bedienung & Gesten
+## 🤝 Über den Entwickler
 
-Damit deine Mitbewohner oder Gäste die Karte optimal nutzen können, hier ein kleiner Guide zu den eingebauten Gesten:
+Dieses Projekt wird entwickelt und gepflegt von **[Smarvy](https://smarvy.de)**. 
 
-* **Mini-Buttons (Geräte):**
-    * **Kurzes Tippen:** Schaltet das Gerät ein/aus (Toggle) oder startet/stoppt den Rollladen.
-    * **Langes Drücken (Hold):** Öffnet den Home Assistant "More Info" Dialog (z. B. für Farbeinstellungen oder Helligkeit). Der *Progress Veil* zeigt an, wann lange genug gedrückt wurde.
-* **Master Button (Großes Icon links):**
-    * **Langes Drücken (Hold):** Führt einen "Master Off" aus – schaltet alle aktiven Lichter, Schalter und Ventilatoren dieses Raums auf einmal ab.
-* **Overflow Button (`...`):**
-    * **Kurzes Tippen:** Öffnet das flüssige Vollbild-Pop-up mit allen weiteren Geräten. Das Pop-up lässt sich per Swipe nach unten schließen.
-    * **Langes Drücken (Hold):** Führt einen "Quick Off" für alle versteckten Geräte aus (schaltet alle Geräte aus, die im Pop-up sind).
+Planung, Einrichtung und Optimierung von Smart-Home-Systemen, auf Basis von Home Assistant. Intergrierung von Shelly, KNX, HomematicIp, Zigbee usw. in das Home Assistant.
+Wenn du dein Smart Home auf das nächste Level heben möchtest oder Unterstützung bei einem komplexen Projekt brauchst, schau auf meiner Website vorbei!
+
+> **Dir gefällt diese Karte?**
+> Empfiehl uns weiter oder lass mich wissen, wie du sie in deinem Dashboard einsetzt!
+
+---
+
+*Lizenz: Nutzung für private Home Assistant Dashboards freigegeben.*
