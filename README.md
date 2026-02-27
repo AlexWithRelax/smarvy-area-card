@@ -80,6 +80,19 @@ Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzust
 
 ---
 
+---
+
+### ❤️ Unterstütze das Projekt
+
+Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alexwithrelax)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/alexbensel)
+
+Vielen Dank für deinen Support! 🙏
+
+---
+
 ## 🤝 Über den Entwickler
 
 Dieses Projekt wird entwickelt und gepflegt von **[Smarvy](https://smarvy.de)**. 
