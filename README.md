@@ -28,6 +28,12 @@ Entwickelt mit einem extremen Fokus auf **Mobile-First UX**, bringt diese Karte 
 
 Da diese Karte als reines Vanilla-JavaScript geschrieben ist, ist die Installation extrem simpel.
 
+### HACS
+1. Gehe auf HACS in deinem Home Assistant
+2. Klicke oben rechts auf die 3 Punkte -> Benutzerdefinierte Repositories
+3. In der Zeile "Repository" den Link  https://github.com/AlexWithRelax/smarvy-area-card.git  einfügen, "Typ" auf "Dashboard" stellen und Hinzufügen
+4. Oben in der Suchleiste "Smarvy Area Card" eingeben -> Auswählen und Herunterladen
+
 ### Manuelle Installation
 
 1. Lade die Datei `smarvy-area-card.js` herunter.
