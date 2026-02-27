@@ -74,6 +74,11 @@ Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzust
 
 ---
 
+### Screenshots
+![Smarvy Card Design](./images/)
+
+---
+
 ## 🤝 Über den Entwickler
 
 Dieses Projekt wird entwickelt und gepflegt von **[Smarvy](https://smarvy.de)**. 
