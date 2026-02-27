@@ -89,7 +89,7 @@ Um Fehlbedienungen zu vermeiden und eine wertige Haptik zu garantieren, nutzt di
 
 * **Der "Schleier-Effekt" (Visual Shroud):** Bei jedem Halten (**Long Press**) breitet sich ein sanfter, dunkler Schleier über die gesamte Karte aus. Die Aktion (z. B. der Master Off) wird erst ausgelöst, wenn der Schleier die Karte vollständig "eingehüllt" hat. Dies signalisiert dir visuell den Fortschritt der Aktivierung.
 * **Haptisches Feedback:** Auf touchfähigen Geräten mit Vibrationsmotor (Smartphones & Tablets) erhältst du eine kurze, präzise Vibration, sobald der Long-Press-Befehl erfolgreich registriert wurde.
-*  
+   
 Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausholst:
 
 ### 🏠 Hauptbereich (Links & Mitte)
