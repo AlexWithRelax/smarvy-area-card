@@ -80,8 +80,6 @@ Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzust
 
 ---
 
----
-
 ### ❤️ Unterstütze das Projekt
 
 Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
