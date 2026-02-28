@@ -150,14 +150,15 @@ Wenn du dein Smart Home auf das nächste Level heben möchtest oder Unterstützu
 > Empfiehl uns weiter oder lass mich wissen, wie du sie in deinem Dashboard einsetzt!
 
 ---
-
-### 📸 Screenshots
+<details>
+<summary>📸 <b>Screenshots(Hier klicken)</b></summary>
 ![Smarvy Card Design](./images/1.jpg)
 ![Smarvy Card Design](./images/5.jpg)
 ![Smarvy Card Design](./images/3.jpg)
 ![Smarvy Card Design](./images/2.jpg)
 ![Smarvy Card Design](./images/4.jpg)
 ![Smarvy Card Design](./images/6.jpg)
+</details>
 
 ---
 
