@@ -77,6 +77,8 @@ buttons:
 ```
 </details>
 
+---
+
 <details>
 <summary>🎨 <b>Design & Farben anpassen (Hier klicken)</b></summary>
 Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzustände (offen/geschlossen) direkt im visuellen Editor überschreiben, um sie perfekt an dein Theme anzupassen.
