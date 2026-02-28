@@ -139,7 +139,8 @@ Vielen Dank für deinen Support! 🙏
 
 ---
 
-## 🤝 Über den Entwickler
+<details>
+<summary>🤝 <b>Über den Entwickler (Hier klicken)</b></summary>
 
 Dieses Projekt wird entwickelt und gepflegt von **[Smarvy](https://smarvy.de)**. 
 
@@ -148,17 +149,17 @@ Wenn du dein Smart Home auf das nächste Level heben möchtest oder Unterstützu
 
 > **Dir gefällt diese Karte?**
 > Empfiehl uns weiter oder lass mich wissen, wie du sie in deinem Dashboard einsetzt!
+</details>
 
 ---
-<details>
-<summary>📸 <b>Screenshots(Hier klicken)</b></summary>
+
+###📸 Screenshots
 ![Smarvy Card Design](./images/1.jpg)
 ![Smarvy Card Design](./images/5.jpg)
 ![Smarvy Card Design](./images/3.jpg)
 ![Smarvy Card Design](./images/2.jpg)
 ![Smarvy Card Design](./images/4.jpg)
 ![Smarvy Card Design](./images/6.jpg)
-</details>
 
 ---
 
