@@ -56,23 +56,37 @@ Für Nutzer, die lieber YAML schreiben, hier ein Beispiel der Konfiguration:
 
 ```yaml
 type: custom:smarvy-area-card
-name: Wohnzimmer
-icon: mdi:sofa
-nav_path: /lovelace/wohnzimmer
-temp_entity: sensor.wohnzimmer_temperatur
-humidity_entity: sensor.wohnzimmer_luftfeuchtigkeit
-window_entity: binary_sensor.wohnzimmer_fenster
-climate_entity: climate.wohnzimmer_thermostat
-max_buttons: 4
-dark_text: false
+name: Essbereich
+icon: mdi:table-chair
+temp_entity: sensor.temperatur_essbereich
+humidity_entity: ""
+window_entity: binary_sensor.türsensor_essbereich
+climate_entity: climate.essbereich
+nav_path: /home/areas-essbereich
 cover_invert: true
+dark_text: false
 show_door_closed: false
+color_on: ""
+color_on_dark: ""
+color_cover: ""
+color_cover_dark: ""
+color_door_open: ""
+color_door_open_dark: ""
+color_door_closed: ""
+color_door_closed_dark: ""
+max_buttons: 2
 buttons:
-  - entity: light.wohnzimmer_decke
-    icon: mdi:ceiling-light
+  - entity: light.essbereich_spots_1
+    icon: mdi:lightbulb
     type: entity
-  - entity: cover.wohnzimmer_rollo
+  - entity: cover.rolladen_essbereich
     icon: mdi:window-shutter
+    type: entity
+  - entity: light.essbereich_spots_2
+    icon: mdi:lightbulb
+    type: entity
+  - entity: light.licht_esstisch
+    icon: mdi:wall-sconce-round
     type: entity
 ```
 </details>
