@@ -111,6 +111,23 @@ Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausho
 * **Schließen:** Du kannst das Pop-up jederzeit durch eine **Wischgeste nach unten** (Swipe down), beim daneben Klicken auf dem Bildschirm oder durch Tippen auf das "X" schließen.
 
 ---
+
+<details>
+<summary>🏗️ <b>Bekannte Einschränkungen & Roadmap (Hier klicken)</b></summary>
+
+### Light Mode & Glassmorphism
+Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** optimiert. 
+
+* **Status:** Im hellen Systemdesign wird der Glassmorphism (Glaseffekt) derzeit nicht gerendert.
+* **Ziel:** Ich arbeite an einer Lösung für "Light-Glassmorphism"!
+
+### Geplante Features
+* [ ] Media Integeation 
+* [ ] Klima Funktion erweitern
+</details>
+
+---
+
 ### ❤️ Unterstütze das Projekt
 
 Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
