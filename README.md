@@ -128,17 +128,6 @@ Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** optimier
 
 ---
 
-### ❤️ Unterstütze das Projekt
-
-Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alexwithrelax)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/alexbensel)
-
-Vielen Dank für deinen Support! 🙏
-
----
-
 <details>
 <summary>🤝 <b>Über den Entwickler (Hier klicken)</b></summary>
 
@@ -153,7 +142,18 @@ Wenn du dein Smart Home auf das nächste Level heben möchtest oder Unterstützu
 
 ---
 
-###📸 Screenshots
+### ❤️ Unterstütze das Projekt
+
+Dir gefällt die **Smarvy Area Card**? Die Entwicklung und Wartung solcher Karten steckt voller Herzblut und Zeit. Wenn du meine Arbeit unterstützen möchtest, freue ich mich riesig über einen virtuellen Kaffee oder eine kleine Spende!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alexwithrelax)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/alexbensel)
+
+Vielen Dank für deinen Support! 🙏
+
+---
+
+### 📸 Screenshots
 ![Smarvy Card Design](./images/1.jpg)
 ![Smarvy Card Design](./images/5.jpg)
 ![Smarvy Card Design](./images/3.jpg)
