@@ -47,7 +47,8 @@ Da diese Karte als reines Vanilla-JavaScript geschrieben ist, ist die Installati
 
 ---
 
-## 🛠️ Konfiguration
+<details>
+<summary>🛠️ <b>Konfiguration (Hier klicken)</b></summary>
 
 Die Smarvy Area Card bringt einen maßgeschneiderten, visuellen Editor mit. Du kannst alle Farben, Entitäten und Buttons bequem über die Benutzeroberfläche zusammenklicken. 
 
@@ -74,13 +75,17 @@ buttons:
     icon: mdi:window-shutter
     type: entity
 ```
+</details>
 
-### 🎨 Design & Farben anpassen
+<details>
+<summary>🎨 <b>Design & Farben anpassen (Hier klicken)</b></summary>
 Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzustände (offen/geschlossen) direkt im visuellen Editor überschreiben, um sie perfekt an dein Theme anzupassen.
+</details>
 
 ---
 
-## 🎮 Bedienung & Gesten
+<details>
+<summary>🎮 <b>Bedienung & Gesten (Hier klicken)</b></summary>
 
 Die **Smarvy Area Card** wurde für ein haptisches und visuelles Premium-Erlebnis entwickelt. Sie kombiniert intuitive Gesten mit direktem Feedback, wie man es von modernen High-End-Interfaces kennt.
 
@@ -109,6 +114,7 @@ Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausho
 * **Temperatur anpassen:** Nutze die **+** und **-** Tasten im Klima-Pop-up für schnelle Änderungen.
 * **Ist-Temperatur:** Die Karte zeigt dir im Badge und im Pop-up immer die aktuelle Ist-Temperatur sowie die Luftfeuchtigkeit an.
 * **Schließen:** Du kannst das Pop-up jederzeit durch eine **Wischgeste nach unten** (Swipe down), beim daneben Klicken auf dem Bildschirm oder durch Tippen auf das "X" schließen.
+</details>
 
 ---
 
