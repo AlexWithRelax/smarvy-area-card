@@ -1,4 +1,4 @@
-# 🌟 Smarvy Area Card für Home Assistant
+# Smarvy Area Card für Home Assistant
 
 ![Version](https://img.shields.io/badge/version-5.3.4-blue.svg)
 ![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)
@@ -12,15 +12,15 @@ Entwickelt mit einem extremen Fokus auf **Mobile-First UX**, bringt diese Karte 
 
 ## ✨ Highlights & Features
 
-* 🎨 **Premium Glassmorphism Design:** Moderne Blur-Effekte, dynamische "Shimmer"-Verläufe und native Anpassung an helle und dunkle Themes.
-* 📱 **Touch-Optimiert & Gestensteuerung:** * **Long-Press:** Haptisches Feedback und visuelle "Veil"-Ladebalken beim gedrückt Halten.
+*  **Premium Glassmorphism Design:** Moderne Blur-Effekte, dynamische "Shimmer"-Verläufe und native Anpassung an helle und dunkle Themes.
+*  **Touch-Optimiert & Gestensteuerung:** * **Long-Press:** Haptisches Feedback und visuelle "Veil"-Ladebalken beim gedrückt Halten.
   * **Swipe-to-Close:** Schließe das integrierte Pop-up elegant mit einer Wischgeste nach unten.
-* ⚡ **Zero Dependencies (Kein browser_mod!):** Das Pop-up-System ist zu 100 % in der Karte integriert. Ein Skript, alles funktioniert.
-* 🌡️ **Smarte Klima- & Sensor-Integration:**
+*  **Zero Dependencies (Kein browser_mod!):** Das Pop-up-System ist zu 100 % in der Karte integriert. Ein Skript, alles funktioniert.
+*  **Smarte Klima- & Sensor-Integration:**
   * Platzsparende "Badges" für Temperatur, Luftfeuchtigkeit und offene/geschlossene Fenster direkt auf der Hauptkarte.
   * Dediziertes Klima-Pop-up zur schnellen Steuerung deines Thermostats.
-* 💡 **Intelligenter "Master Off":** Halte die Hauptkarte gedrückt, um sofort alle aktiven Lichter, Schalter oder Ventilatoren in diesem Raum auszuschalten.
-* ⚙️ **Vollwertiger visueller Editor:** Konfiguriere alles bequem über die Home Assistant UI. Inklusive nativem Drag & Drop zum Sortieren deiner Geräte-Buttons!
+*  **Intelligenter "Master Off":** Halte die Hauptkarte gedrückt, um sofort alle aktiven Lichter, Schalter oder Ventilatoren in diesem Raum auszuschalten.
+*  **Vollwertiger visueller Editor:** Konfiguriere alles bequem über die Home Assistant UI. Inklusive nativem Drag & Drop zum Sortieren deiner Geräte-Buttons!
 
 ---
 
@@ -48,7 +48,7 @@ Da diese Karte als reines Vanilla-JavaScript geschrieben ist, ist die Installati
 ---
 
 <details>
-<summary>🛠️ <b>Konfiguration (Hier klicken)</b></summary>
+<summary> <b>Konfiguration (Hier klicken)</b></summary>
 
 Die Smarvy Area Card bringt einen maßgeschneiderten, visuellen Editor mit. Du kannst alle Farben, Entitäten und Buttons bequem über die Benutzeroberfläche zusammenklicken. 
 
@@ -94,7 +94,7 @@ buttons:
 ---
 
 <details>
-<summary>🎨 <b>Design & Farben anpassen (Hier klicken)</b></summary>
+<summary> <b>Design & Farben anpassen (Hier klicken)</b></summary>
 
 Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzustände (offen/geschlossen) direkt im visuellen Editor überschreiben, um sie perfekt an dein Theme anzupassen.
 </details>
@@ -102,11 +102,11 @@ Du kannst die Farben (Hex-Codes) für aktive Geräte, Rollläden und Fensterzust
 ---
 
 <details>
-<summary>🎮 <b>Bedienung & Gesten (Hier klicken)</b></summary>
+<summary> <b>Bedienung & Gesten (Hier klicken)</b></summary>
 
 Die **Smarvy Area Card** wurde für ein haptisches und visuelles Premium-Erlebnis entwickelt. Sie kombiniert intuitive Gesten mit direktem Feedback, wie man es von modernen High-End-Interfaces kennt.
 
-### 📳 Visuelles & Haptisches Feedback (Premium Feel)
+###  Visuelles & Haptisches Feedback (Premium Feel)
 Um Fehlbedienungen zu vermeiden und eine wertige Haptik zu garantieren, nutzt die Karte zwei besondere Mechanismen:
 
 * **Der "Schleier-Effekt" (Visual Shroud):** Bei jedem Halten (**Long Press**) breitet sich ein sanfter, dunkler Schleier über die gesamte Karte aus. Die Aktion (z. B. der Master Off) wird erst ausgelöst, wenn der Schleier die Karte vollständig "eingehüllt" hat. Dies signalisiert dir visuell den Fortschritt der Aktivierung.
@@ -114,20 +114,20 @@ Um Fehlbedienungen zu vermeiden und eine wertige Haptik zu garantieren, nutzt di
    
 Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausholst:
 
-### 🏠 Hauptbereich (Links & Mitte)
+###  Hauptbereich (Links & Mitte)
 * **Tippen auf das Raum-Icon (links):** Führt keine Interaktion aus.
 * **Halten auf das Raum-Icon (Long Press):** **Master Off** – Schaltet sofort alle aktiven Lichter, Schalter und Ventilatoren im Raum aus.
 * **Tippen auf den Raumnamen:** Navigiert dich direkt zum hinterlegten Pfad (zb. Areas).
 * **Halten auf den Raumnamen/Sensoren:** Öffnet direkt das **Klima-Pop-up**, falls ein Thermostat konfiguriert ist.
 * **Im **Klima-Pop-up** = **Halten auf die Temperatur:** Öffnet den Standard-Home-Assistant-Dialog für detaillierte Einstellungen des Klimagerätes.
 
-### 💡 Geräte-Buttons (Rechts)
+###  Geräte-Buttons (Rechts)
 * **Einfaches Tippen:** Schaltet das Gerät ein/aus (Licht, Fan, Switch) oder steuert den Rollladen (Öffnen/Stopp/Schließen).
 * **Halten (Long Press):** Öffnet den Standard-Home-Assistant-Dialog für detaillierte Einstellungen (z. B. Farbe des Lichts).
 * **Drei Punkte (⋮) - Tippen:** Öffnet das **Steuerungs-Pop-up** mit allen weiteren Geräten des Raums.
 * **Drei Punkte (⋮) - Halten:** **Quick Off** – Schaltet nur die im Pop-up versteckten Geräte aus.
 
-### 🌡️ Pop-up & Klima-Steuerung
+### Pop-up & Klima-Steuerung
 * **Temperatur anpassen:** Nutze die **+** und **-** Tasten im Klima-Pop-up für schnelle Änderungen.
 * **Ist-Temperatur:** Die Karte zeigt dir im Badge und im Pop-up immer die aktuelle Ist-Temperatur sowie die Luftfeuchtigkeit an.
 * **Schließen:** Du kannst das Pop-up jederzeit durch eine **Wischgeste nach unten** (Swipe down), beim daneben Klicken auf dem Bildschirm oder durch Tippen auf das "X" schließen.
@@ -136,7 +136,7 @@ Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausho
 ---
 
 <details>
-<summary>🏗️ <b>Bekannte Einschränkungen & Roadmap (Hier klicken)</b></summary>
+<summary> <b>Bekannte Einschränkungen & Roadmap (Hier klicken)</b></summary>
 
 ### Light Mode & Glassmorphism
 Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** optimiert. 
@@ -152,7 +152,7 @@ Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** optimier
 ---
 
 <details>
-<summary>🤝 <b>Über den Entwickler (Hier klicken)</b></summary>
+<summary> <b>Über den Entwickler (Hier klicken)</b></summary>
 
 Dieses Projekt wird entwickelt und gepflegt von **[Smarvy](https://smarvy.de)**. 
 
