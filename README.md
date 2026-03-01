@@ -139,10 +139,9 @@ Hier ist ein kurzer Überblick, wie du das Maximum aus deinem Dashboard herausho
 <summary> <b>Bekannte Einschränkungen & Roadmap (Hier klicken)</b></summary>
 
 ### Light Mode & Glassmorphism
-Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** optimiert. 
-
-* **Status:** Im hellen Systemdesign wird der Glassmorphism (Glaseffekt) derzeit nicht gerendert.
-* **Ziel:** Ich arbeite an einer Lösung für "Light-Glassmorphism"!
+Der **Premium Glassmorphism-Effekt** ist aktuell für den **Dark Mode** (dunkle Systemdesign des Gerätes) optimiert.
+Bei hellem Systemdesign des Gerätes, funktioniert der **Glassmorphism-Effekt** nicht!
+* Es wird bereits mit Hochdruck an einer **Design-Alternative** für das **White Mode** gearbeitet. Ziel ist es, das edle Glas-Erlebnis durch intelligente Kontrastanpassungen und angepasste Schattierungen auch für Nutzer des hellen Designs perfekt erlebbar zu machen.
 
 ### Geplante Features
 * [ ] Media Integeation 
