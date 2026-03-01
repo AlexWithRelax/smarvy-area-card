@@ -12,7 +12,7 @@ Entwickelt mit einem extremen Fokus auf **Mobile-First UX**, bringt diese Karte 
 
 ## ✨ Highlights & Features
 
-*  **Premium Glassmorphism Design:** Moderne Blur-Effekte, dynamische "Shimmer"-Verläufe und native Anpassung an helle und dunkle Themes.
+*  **Premium Glassmorphism Design:** Moderne Blur-Effekte, dynamische "Shimmer"-Verläufe und native Anpassung an helle und dunkle Themes. (Für das Beste Erlebnis, wird empfohlen das Systemdesign vom Endgerät auf "Dunkel" zu stellen!)
 *  **Touch-Optimiert & Gestensteuerung:** * **Long-Press:** Haptisches Feedback und visuelle "Veil"-Ladebalken beim gedrückt Halten.
   * **Swipe-to-Close:** Schließe das integrierte Pop-up elegant mit einer Wischgeste nach unten.
 *  **Zero Dependencies (Kein browser_mod!):** Das Pop-up-System ist zu 100 % in der Karte integriert. Ein Skript, alles funktioniert.
